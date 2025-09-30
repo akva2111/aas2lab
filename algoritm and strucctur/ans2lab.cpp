@@ -112,6 +112,7 @@ std::vector<int> findAll(const std::string& text, const std::string& pattern) {
     }
     return occurrences;
 }
+//3)
 std::vector<int> findAllInRange(const std::string& text, const std::string& pattern, int startIdx, int endIdx) {
     std::vector<int> occurrences;
 
